@@ -1,7 +1,7 @@
 ### When a computer or device is returned to IT, this self-service tool will remove it from Jamf Pro and Jamf Protect and update the status in Snipe.<br>
 
 1. The API endpoint is triggered by entering a serial number into a pop-up, which is launched from self-service.<br>
-  a. Link to the [Hardware_Return_script](https://github.com/bgkf/Okta_Workflows/blob/43b228a46ca6cf163ea8aa58bbdd2358dea302e5/Hardware_Return.sh) using IBM Notifier. 
+  a. Link to the [Hardware_Return_script](https://github.com/bgkf/self-service-tools/blob/50dc5e85ea750f491368a4c2435ea1a1e24577ca/Hardware_Return/Hardware_Return.sh) using IBM Notifier. 
 2. Check if Find-My-Mac is enabled (Computers only).<br>
 3. Check-in the Computer/Device in Snipe.<br>
 4. Delete the Computer/Device from Jamf Pro.<br>
