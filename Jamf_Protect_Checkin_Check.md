@@ -1,4 +1,4 @@
-<b>Weekly check for computers in Jamf Protect with a check-in date greater than 30 days.</b><br>
+###<b>Weekly check for computers in Jamf Protect with a check-in date greater than 30 days.</b><br>
 
 1. Create a list of all computers in Jamf Protect with a check-in date greater than 30 days.<br>
   Note: the max page size is 200 opjects.<br>
