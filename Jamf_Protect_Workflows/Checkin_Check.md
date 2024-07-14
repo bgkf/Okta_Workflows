@@ -1,5 +1,4 @@
-# Weekly check for computers in Jamf Protect with a check-in date greater than 30 days.
-<br><br>
+<b>Weekly check for computers in Jamf Protect with a check-in date greater than 30 days.</b><br>
 
 1. Create a list of all computers in Jamf Protect with a check-in date greater than 30 days.<br>
   Note: the max page size is 200 opjects.<br>
@@ -14,8 +13,8 @@
 <img width="1000"  alt="checkin 1.1" src="https://github.com/user-attachments/files/16228445/CheckIn.30.Days.1.-.1.pdf"><br>
 <img width="1000"  alt="checkin 1.2" src="https://github.com/user-attachments/files/16228446/CheckIn.30.Days.1.-.2.pdf"><br>
 <img width="1000"  alt="checkin 1.3" src="https://github.com/user-attachments/files/16228447/CheckIn.30.Days.1.-.3.pdf"><br>
-<img width="1000"  alt="checkin 1.4" src="https://github.com/user-attachments/files/16228448/CheckIn.30.Days.1.-.4.pdf"><br>
-<br><br>
+<img width="1000"  alt="checkin 1.4" src="https://github.com/user-attachments/files/16228448/CheckIn.30.Days.1.-.4.pdf">
+<br>
 
 2. Check if the computer should be deleted from Jamf Protect. <br>
   a. Check if the computer exists in Jamf Pro.<br>
