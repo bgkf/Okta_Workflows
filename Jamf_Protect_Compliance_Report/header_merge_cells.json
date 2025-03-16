@@ -1,0 +1,16 @@
+{
+  "requests": [
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 870206887,
+          "startRowIndex": 0,
+          "endRowIndex": 3,
+          "startColumnIndex": 2,
+          "endColumnIndex": 9
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    }
+  ]
+}
