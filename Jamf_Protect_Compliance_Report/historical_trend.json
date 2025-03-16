@@ -1,0 +1,87 @@
+{
+  "requests": [
+    {
+      "addChart": {
+        "chart": {
+          "spec": {
+            "title": "Average Compliance Pass/Fail Trend Over Time",
+            "basicChart": {
+              "chartType": "AREA",
+              "legendPosition": "NO_LEGEND",
+              "domains": [
+                {
+                  "domain": {
+                    "sourceRange": {
+                      "sources": [
+                        {
+                          "sheetId": 1740160837,
+                          "startRowIndex": 9,
+                          "endRowIndex": 14,
+                          "startColumnIndex": 0,
+                          "endColumnIndex": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "series": [
+                {
+                  "series": {
+                    "sourceRange": {
+                      "sources": [
+                        {
+                          "sheetId": 1740160837,
+                          "startRowIndex": 9,
+                          "endRowIndex": 14,
+                          "startColumnIndex": 2,
+                          "endColumnIndex": 3
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "series": {
+                    "sourceRange": {
+                      "sources": [
+                        {
+                          "sheetId": 1740160837,
+                          "startRowIndex": 9,
+                          "endRowIndex": 14,
+                          "startColumnIndex": 3,
+                          "endColumnIndex": 4
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "axis": [
+                {
+                  "position": "BOTTOM_AXIS",
+                  "title": "Last Three Months"
+                },
+                {
+                  "position": "LEFT_AXIS",
+                  "title": "Average Pass/Fail Compliance"
+                }
+              ]
+            }
+          },
+          "position": {
+            "overlayPosition": {
+              "anchorCell": {
+                "sheetId": 870206887,
+                "rowIndex": 22,
+                "columnIndex": 2
+              },
+              "offsetXPixels": 50,
+              "offsetYPixels": 50
+            }
+          }
+        }
+      }
+    }
+  ]
+}
