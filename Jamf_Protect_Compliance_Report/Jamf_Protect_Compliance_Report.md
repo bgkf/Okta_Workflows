@@ -11,10 +11,10 @@ WORKFLOW PROCESS OVERVIEW<br>
 4. Create the spreadsheet with the graphs.
 <br>
 PROCESS DETAILS<br>
-1. 
-2.
-3.
-4.
+1. <br> 
+2. <br>
+3. <br>
+4. <br>
 <br>
 <br>
 
@@ -31,10 +31,10 @@ OKTA WORKFLOWS<br>
 <img width="1000"  alt="compliance report 2.6" src="https://github.com/user-attachments/files/19268275/compliance.report.2.6.pdf"><br>
 <br>
 SPREADSHEETS<br>
-<img width="1000"  alt="sheet_template.pdf" src="https://github.com/user-attachments/files/19268291/sheet_template.pdf"><br>
-<img width="1000"  alt="sheet_data.pdf" src="https://github.com/user-attachments/files/19268293/sheet_data.pdf"><br>
-<img width="1000"  alt="sheet_stats.pdf" src="https://github.com/user-attachments/files/19268305/sheet_stats.pdf"><br>
-<img width="1000"  alt="sheet_historicalStats.pdf" src="https://github.com/user-attachments/files/19268319/sheet_historicalStats.pdf"><br>
-<img width="1000"  alt="sheet_report.pdf" src="https://github.com/user-attachments/files/19268321/sheet_report.pdf"><br>
+<img width="500"  alt="sheet_template.pdf" src="https://github.com/user-attachments/files/19268291/sheet_template.pdf"><br>
+<img width="500"  alt="sheet_data.pdf" src="https://github.com/user-attachments/files/19268293/sheet_data.pdf"><br>
+<img width="500"  alt="sheet_stats.pdf" src="https://github.com/user-attachments/files/19268305/sheet_stats.pdf"><br>
+<img width="500"  alt="sheet_historicalStats.pdf" src="https://github.com/user-attachments/files/19268319/sheet_historicalStats.pdf"><br>
+<img width="500"  alt="sheet_report.pdf" src="https://github.com/user-attachments/files/19268321/sheet_report.pdf"><br>
 
 
