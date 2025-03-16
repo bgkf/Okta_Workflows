@@ -1,0 +1,55 @@
+{
+  "requests": [
+    {
+      "addChart": {
+        "chart": {
+          "spec": {
+            "title": "MM/DD/YYYY Average Compliance Pass/Fail",
+            "subtitle": "The compliance baseline score is an average of the individual computer baseline scores in your organization.",
+            "pieChart": {
+              "legendPosition": "LABELED_LEGEND",
+              "threeDimensional": true,
+              "domain": {
+                "sourceRange": {
+                  "sources": [
+                    {
+                      "sheetId": <sourceSheetID>,
+                      "startRowIndex": 0,
+                      "endRowIndex": 1,
+                      "startColumnIndex": 2,
+                      "endColumnIndex": 4
+                    }
+                  ]
+                }
+              },
+              "series": {
+                "sourceRange": {
+                  "sources": [
+                    {
+                      "sheetId": <sourceSheetID>,
+                      "startRowIndex": 1,
+                      "endRowIndex": 2,
+                      "startColumnIndex": 2,
+                      "endColumnIndex": 4
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "position": {
+            "overlayPosition": {
+              "anchorCell": {
+                "sheetId": <destinationSheetID>,
+                "rowIndex": 2,
+                "columnIndex": 2
+              },
+              "offsetXPixels": 50,
+              "offsetYPixels": 50
+            }
+          }
+        }
+      }
+    }
+  ]
+}
