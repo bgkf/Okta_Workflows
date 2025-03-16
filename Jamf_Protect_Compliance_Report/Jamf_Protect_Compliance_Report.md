@@ -31,10 +31,19 @@ OKTA WORKFLOWS<br>
 <img width="1000"  alt="compliance report 2.6" src="https://github.com/user-attachments/files/19268275/compliance.report.2.6.pdf"><br>
 <br>
 SPREADSHEETS<br>
+Template<br>
 <img width="500"  alt="sheet_template.pdf" src="https://github.com/user-attachments/files/19268291/sheet_template.pdf"><br>
+<br>
+Data for each computer<br>
 <img width="500"  alt="sheet_data.pdf" src="https://github.com/user-attachments/files/19268293/sheet_data.pdf"><br>
+<br>
+Fleet data<br>
 <img width="500"  alt="sheet_stats.pdf" src="https://github.com/user-attachments/files/19268305/sheet_stats.pdf"><br>
+<br>
+Previous months fleet data<br>
 <img width="500"  alt="sheet_historicalStats.pdf" src="https://github.com/user-attachments/files/19268319/sheet_historicalStats.pdf"><br>
+<br>
+Charts<br>
 <img width="500"  alt="sheet_report.pdf" src="https://github.com/user-attachments/files/19268321/sheet_report.pdf"><br>
-
+<br>
 
