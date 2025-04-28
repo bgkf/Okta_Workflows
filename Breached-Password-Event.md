@@ -17,7 +17,7 @@ PROCESS DETAILS<br>
 1. A breached credential event occurs and triggers the API endpoint.<br>
 2. Breached Password Okta Event [1]
 <br>
-   a. API endpoint for the event hook.<br>
+	a. API endpoint for the event hook.<br>
 4. Breached Password Okta Event [2]<br>
 	a. Get the details from the event.<br>
 	b. Send a Slack message to the #team-security channel.<br>
