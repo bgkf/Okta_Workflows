@@ -16,12 +16,12 @@ WORKFLOW PROCESS OVERVIEW<br>
 PROCESS DETAILS<br>
 1. A breached credential event occurs and triggers the API endpoint.<br>
 2. Breached Password Okta Event [1].<br>
-   *a. API endpoint for the event hook.<br>
+    * a. API endpoint for the event hook.<br>
 4. Breached Password Okta Event [2]<br>
-   *a. Get the details from the event.<br>
-   *b. Send a Slack message to the #team-security channel.<br>
-   *c. Create a help ticket for the end user password change.<br>
-   *d. Start workflows [3] and [4].<br>
+    * a. Get the details from the event.<br>
+   * b. Send a Slack message to the #team-security channel.<br>
+   * c. Create a help ticket for the end user password change.<br>
+   * d. Start workflows [3] and [4].<br>
 5. Breached Password Okta Event [3]<br>
 	a. Loop to confirm the password is changed by the end user.<br>
 5.Breached Password Okta Event [4]<br>
