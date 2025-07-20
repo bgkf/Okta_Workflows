@@ -59,6 +59,6 @@ SERIALIZED DATA<br>
 <br>
 <br>
 FURTHER READING<br>
-• Okta's recommendations for [best practices for building flows](https://help.okta.com/wf/en-us/content/topics/workflows/architecture-best-practices.htm).<br>
+• Okta's [best practices for building flows](https://help.okta.com/wf/en-us/content/topics/workflows/architecture-best-practices.htm) recommendations.<br>
 • Okta's [building flows](https://help.okta.com/wf/en-us/content/topics/workflows/build/build-flows.htm) documentaion.<br>
 
