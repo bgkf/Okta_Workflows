@@ -13,24 +13,25 @@ WORKFLOW PROCESS OVERVIEW<br>
 3. Previous session start events (for the end user) are documented and reported.
 4. Monitor for the next end user password change.
 <br>
+
 PROCESS DETAILS<br>
 1. A breached credential event occurs and triggers the API endpoint.<br>
 2. Breached Password Okta Event [1].<br>
-   a. API endpoint for the event hook.<br>
-4. Breached Password Okta Event [2]<br>
-   a. Get the details from the event.<br>
-   b. Send a Slack message to the #team-security channel.<br>
-   c. Create a help ticket for the end user password change.<br>
-   d. Start workflows [3] and [4].<br>
-5. Breached Password Okta Event [3]<br>
-	a. Loop to confirm the password is changed by the end user.<br>
-5.Breached Password Okta Event [4]<br>
-	a. Report recent Okta login history for the end user.<br>
-	b. Updates the Slack thread with a URL for an okta log search by eventType, actor.id, start and end time where the eventType is user.session.start. This can be used to look for suspect logins.<br>
+  a. API endpoint for the event hook.<br>
+3. Breached Password Okta Event [2].<br>
+  a. Get the details from the event.<br>
+  b. Send a Slack message to the #team-security channel.<br>
+  c. Create a help ticket for the end user password change.<br>
+  d. Start workflows [3] and [4].<br>
+4. Breached Password Okta Event [3]<br>
+  a. Loop to confirm the password is changed by the end user.<br>
+5. Breached Password Okta Event [4]<br>
+  a. Report recent Okta login history for the end user.<br>
+  b. Updates the Slack thread with a URL for an okta log search by eventType, actor.id, start and end time where the eventType is user.session.start. This can be used to look for suspect logins.<br>
 6. Breached Password Okta Event [5]<br>
-	a. Populate a table with the data from the user.session.start Okta log search.<br>
+  a. Populate a table with the data from the user.session.start Okta log search.<br>
 7. Breached Password Okta Event [6]<br>
-	a. Export the table of session start events as a csv file and send it to the Slack thread. For folks who are not Okta admins.<br>
+  a. Export the table of session start events as a csv file and send it to the Slack thread. For folks who are not Okta admins.<br>
 <br>
 <img width="1000"  alt="Slack-Thread" src="https://github.com/user-attachments/files/17896887/breached.password.event.pdf"><br>
 <img width="1000"  alt="Breached-Password_1.1" src="https://github.com/user-attachments/files/17896890/Breached-Password_1.1.pdf"><br>
