@@ -15,7 +15,7 @@ Superman_Current=$(curl -fs "https://github.com/Macjutsu/super/releases/" | grep
 Hombrew_Current=$(curl -fs "https://raw.githubusercontent.com/kandji-inc/support/main/Scripts/InstallHomebrew.zsh" | grep -A 1 "# Script version" | awk 'NR==2{print}' | cut -d '"' -f2 )
 
 # get the current version of the 1Password SCIM Bridge
-onePSB_Current=$(curl -fs https://app-updates.agilebits.com/product_history/SCIM | grep "&nbsp;(build <a href=" | awk 'NR==1{print $4}' | cut -d'"' -f2)
+onePSB_Current=$(curl -fs "https://releases.1password.com/provisioning/scim-bridge/index.xml" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | tail -n 1)
 
 # get the current version of Installomator
 Installomator_Current=$(curl -fs "https://github.com/Installomator/Installomator/releases" | grep "/Installomator/Installomator/tree/v" | awk 'NR==1{print}' | cut -d '"' -f2 | sed 's/.*v//' )
